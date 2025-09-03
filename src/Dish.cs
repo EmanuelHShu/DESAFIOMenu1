@@ -6,5 +6,8 @@ namespace Ucu.Poo.Restaurant
     /// </summary>
     public class Dish
     {
+        public string Name { get; }
+        public double Price { get; }
+        public bool IsVegetarian { get; }
     }
 }
